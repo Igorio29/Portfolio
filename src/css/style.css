@@ -146,3 +146,152 @@ footer {
     margin-left: 45.5%;
     margin-top: 10px;
 }
+
+
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        margin: 0;
+        background-color: var();
+    }
+    
+    .Inicio {
+        flex-direction: column;
+        gap: 30px;
+        vertical-align: middle;
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    .Foto {
+        border-radius: 50%;
+        width: 200px;
+        margin: 0 auto
+    }
+    
+    .nome_descricao {
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .botao {
+        margin-top: 50px;
+    }
+    
+    .botao-de-baixar {
+        background-color: blue;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        border: 2px solid rgb(56, 56, 56);
+        border-radius: 5px;
+        transition: 0.2s;
+        padding: 5px;
+    }
+    
+    .botao-de-baixar:hover {
+        background-color: rgb(3, 3, 163);
+        color: #00071d;
+        font-weight: bold;
+    }
+    
+    .Projetos-sites {
+        margin: 20% 0px;
+        background-color: #00030f;
+    }
+    
+    .listagem-projetos {
+        margin: 0px 0px;
+        padding: 20px;
+        background-color: #00030f;
+    }
+    
+    .projetos {
+        font-size: 35px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .listagem-projetos-logo {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .previa {
+        border-radius: 10px;
+        width: 30%;
+    }
+    
+    .projeto-unico {
+        margin-left: 0%;
+        list-style: none;
+        padding: 10px;
+    }
+    
+    .espacamento {
+        margin-top: 100px;
+    }
+    
+    .projeto-unico h2 {
+        font-size: 30px;
+    }
+    
+    .projeto-unico p {
+        font-size: 20px;
+    }
+    
+    .links {
+        color:rgb(12, 0, 175);
+        font-size: 20px;
+    }
+    
+    .previa-site {
+        width: 40%;
+    }
+    
+    .sobremim {
+        margin-top: 0px;
+        margin-bottom: 100px;
+        background-color: var(--azul-escuro-fundo);
+    }
+    
+    .titulo-sobremim {
+        font-size: 30px;
+    }
+    
+    .psobremim {
+        margin: 0 10px;
+        font-size: 25px;
+    }
+
+    footer {
+        padding: 50px;
+        background-color: #00030f;
+    }
+    
+    .itens-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-social {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .carinho {
+        margin-left: 32%;
+        margin-top: 10px;
+    }
+}
