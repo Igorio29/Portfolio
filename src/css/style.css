@@ -1,0 +1,148 @@
+:root {
+    --azul-escuro-fundo: #000d36;
+    --branco-da-fonte: #f1f1f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--azul-escuro-fundo);
+    color: var(--branco-da-fonte);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+header {
+    margin: 0 25% ;
+    background-color: var();
+}
+
+.Inicio {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+.Foto {
+    border-radius: 100%;
+    width: 250px;
+}
+
+.nome_descricao {
+    margin-top: 10%;
+}
+
+.botao {
+    margin-top: 30px;
+}
+
+.botao-de-baixar {
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 5px;
+}
+
+.botao-de-baixar:hover {
+    background-color: rgb(3, 3, 163);
+    color: #00071d;
+    font-weight: bold;
+}
+
+.Projetos-sites {
+    margin: 10% 0px;
+    background-color: #00030f;
+}
+
+.listagem-projetos {
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #00030f;
+}
+
+.projetos {
+    margin-left: 45%;
+    
+}
+
+.listagem-projetos-logo {
+    display: flex;
+    gap: 40px;
+}
+
+.previa {
+    border-radius: 10px;
+    width: 12%;
+}
+
+.projeto-unico {
+    margin-left: 17%;
+    list-style: none;
+    padding: 10px;
+}
+
+.espacamento {
+    margin-top: 100px;
+}
+
+.projeto-unico h2 {
+    font-size: 30px;
+}
+
+.projeto-unico p {
+    font-size: 20px;
+}
+
+.links {
+    color: var(--branco-da-fonte);
+    font-size: 20px;
+}
+
+.previa-site {
+    width: 40%;
+}
+
+.sobremim {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: var(--azul-escuro-fundo);
+}
+
+.titulo-sobremim {
+    margin-left: 25%;
+}
+
+.psobremim {
+    margin: 0 200px;
+    font-size: 20px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #00030f;
+}
+
+.itens-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social {
+    display: flex;
+    gap: 2rem;
+}
+
+.carinho {
+    margin-left: 45.5%;
+    margin-top: 10px;
+}
