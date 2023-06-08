@@ -266,12 +266,15 @@ footer {
     }
     
     .titulo-sobremim {
+        text-align: center;
+        margin: 0;
         font-size: 30px;
     }
     
     .psobremim {
         margin: 0 10px;
         font-size: 25px;
+        text-align: center;
     }
 
     footer {
