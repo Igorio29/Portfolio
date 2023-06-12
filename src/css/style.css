@@ -157,6 +157,15 @@ footer {
     margin-top: 10px;
 }
 
+.github {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.github:hover {
+    text-decoration:underline;
+}
+
 @media (max-width: 768px) {
     *{
         margin: 0;
